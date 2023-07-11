@@ -16,17 +16,20 @@ body {
   font-size: 30px;
   font-weight: 900;
   margin: 50px 0px 50px 0px;
+  margin-bottom: 12px;
 }
 
 .banner-description {
   color: rgba(red, green, blue, alpha);
   font-size: 10px;
   font-weight: 50;
+  margin-bottom: 12px;
 }
 
 .banner .profile-pic {
   width: 435px;
   height: 540px;
+  display: block;
 }
 
 .button-primary {
@@ -36,4 +39,19 @@ body {
   font-size: 12px;
   font-weight: 500;
   padding: 5px 25px;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  /* width: 200px; */
 }
