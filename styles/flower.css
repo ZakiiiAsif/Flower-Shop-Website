@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-title {
+  width: 408px;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 50px 0px 50px 0px;
+}
+
+.banner-description {
+  color: rgba(red, green, blue, alpha);
+  font-size: 10px;
+  font-weight: 50;
+}
+
+.banner .profile-pic {
+  width: 435px;
+  height: 540px;
+}
+
+.button-primary {
+  border-radius: 5px;
+  background: #e55473;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 25px;
+}
