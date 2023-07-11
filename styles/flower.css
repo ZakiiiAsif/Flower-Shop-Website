@@ -2,6 +2,30 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: LightGray;
+}
+
+.nav-links {
+  padding-top: 40px;
+  margin right: 130px;
+}
+
+.nav-link {
+  color: rgb(205, 133, 63);
+  padding: 10px;
+}
+
+.nav-title {
+  font-size: 30px;
+}
+
+.nav-primary {
+  color: crimson;
+}
+
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
@@ -21,18 +45,19 @@ body {
 
 .banner-description {
   color: rgba(red, green, blue, alpha);
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 50;
   margin-bottom: 12px;
 }
 
-.button-primary {
+.banner-button {
+  border: none;
   border-radius: 5px;
   background: #e55473;
   color: #fff;
   font-size: 12px;
   font-weight: 500;
-  padding: 5px 25px;
+  padding: 15px 30px;
 }
 
 .banner .profile-pic {
@@ -41,23 +66,22 @@ body {
   display: block;
 }
 
-.section-title {
+.featured {
+  margin-top: 150px;
+}
+
+.featured-title {
   color: #272727;
   text-align: center;
   font-size: 30px;
   font-weight: 800;
 }
 
-.featured {
-  margin-top: 150px;
-}
-
-.section-description {
+.featured-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
-  /* width: 200px; */
 }
 
 .flower-container {
@@ -108,5 +132,150 @@ body {
 }
 
 .service {
-  padding: 30px;
+  padding: 35px;
+}
+
+.deal {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(229, 84, 115, 0.05);
+  text-align: center;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 20px;
+  font-weight: 800;
+  width: 500px;
+}
+
+.deal-off {
+  color: rgba(229, 84, 115, 1);
+}
+
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.deal-button {
+  border: none;
+  border-radius: 5px;
+  background: #e55473;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+.deal-image {
+  padding-right: 150px;
+}
+
+.insta-container {
+  display: flex;
+  justify-content: center;
+}
+
+.insta-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 70px;
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.insta-image {
+  padding: 0 15px;
+  height: 350px;
+  width: 400px;
+}
+
+.subscribe-container {
+  margin: 100px 80px;
+  padding: 90px 125px;
+  background-image: url('../styles/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.subscribe-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.subscribe-search {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-input {
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+
+.subscribe-button {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  padding: 0 15px;
+}
+
+.footer-container {
+  background: #111010;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-primary {
+  color: #e55473;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-weight: 400;
 }
