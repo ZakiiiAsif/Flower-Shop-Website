@@ -10,16 +10,21 @@ body {
 
 .nav-links {
   padding-top: 40px;
-  margin right: 130px;
+  margin-right: 130px;
+  list-style: none;
 }
 
 .nav-link {
   color: rgb(205, 133, 63);
-  padding: 10px;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .nav-title {
   font-size: 30px;
+  padding-left: 90px;
+  font-weight: 700;
 }
 
 .nav-primary {
@@ -95,7 +100,7 @@ body {
   margin: 10px;
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
 .azalea-flower {
@@ -104,12 +109,12 @@ body {
 }
 
 .colorful-flower {
-  padding: 117px 0 50px 0;
+  padding: 117px 0px 50px 0px;
   background-color: rgba(5, 151, 160, 0.15);
 }
 
 .tulip-flower {
-  padding: 66px 0 0 0;
+  padding: 66px 0px 0px 0px;
   background-color: rgba(71, 125, 17, 0.15);
 }
 
@@ -119,8 +124,8 @@ body {
 }
 
 .service-container {
-  margin: 100px 0;
-  padding: 0 125px;
+  margin: 100px 0px;
+  padding: 0px 125px;
 }
 
 .services {
@@ -199,7 +204,7 @@ body {
 }
 
 .insta-image {
-  padding: 0 15px;
+  padding: 0px 15px;
   height: 350px;
   width: 400px;
 }
@@ -248,13 +253,13 @@ body {
   font-size: 15px;
   font-weight: 500;
   border: none;
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 .footer-container {
   background: #111010;
   text-align: center;
-  padding: 40px 0;
+  padding: 40px 0px;
 }
 
 .footer-title {
